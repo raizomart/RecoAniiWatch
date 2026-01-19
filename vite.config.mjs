@@ -1,9 +1,3 @@
-console.log("Vite config loaded successfully");
-import { defineConfig } from 'vite'
+import config from './vite.config.ts';
 
-export default defineConfig({
-  root: ".",
-  build: {
-    outDir: "dist"
-  }
-})
+export default config;
